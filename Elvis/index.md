@@ -24,7 +24,7 @@
 
 - **Voice Interaction:** Ask Elvis anything — from his career to personal life — and he responds in his signature voice and style.
 - **Realistic Lip Syncing:** Elvis' avatar moves his lips perfectly in sync with his responses, powered by Unity’s LipSync integration.
-- **Dynamic Dialogue:** Responses are generated in real-time using OpenAI’s GPT-4o model, tuned to replicate Elvis' tone and personality.
+- **Dynamic Dialogue:** Responses are generated in real-time using OpenAI’s GPT-4o-mini model, tuned to replicate Elvis' tone and personality.
 
 ### 🌟 Immersive Environment
 
@@ -64,18 +64,9 @@
 
 ## 🔧 Deployment Details
 
-- **Frontend:** Hosted on a VPS under xrvizion subdomain.
+- **Frontend:** Hosted on a VPS under xrvizion domain.
 - **Static Resources:** All Unity assets are optimized and delivered via AWS S3 + CloudFront CDN for fast, reliable loading.
 - **Backend:** Node.js with ExpressJS for handling AI API calls and managing interactions.
-
----
-
-## 📌 Future Enhancements
-
-- **Personalized Conversations:** Memory feature for Elvis to remember previous interactions with returning users.
-- **Song Snippets:** Let Elvis sing parts of his famous songs on request.
-- **Multilingual Support:** Real-time translations for global audiences.
-- **Virtual Meet & Greet:** Allow users to pose and take a photo with digital Elvis.
 
 ---
 

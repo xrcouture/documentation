@@ -114,7 +114,6 @@
 
 - **Dynamic floor plan recommendations** based on user preferences.
 - **AI-driven property recommendations** (e.g., similar projects in the area).
-- **Chat history personalization** (continue where the user left off).
 - **AI-based financial planning tool** (e.g., loan calculations, EMI breakdowns).
 
 ---
@@ -123,10 +122,7 @@
 
 For more details:
 
-- **[Setup Guide](setup_guide.md)** — Step-by-step project installation and deployment.
-- **[API Documentation](api_reference.md)** — Detailed API routes, payloads, and responses.
 - **[Microservices Breakdown](microservices.md)** — In-depth explanation of each microservice.
-- **[Report Format Guide](report_format.md)** — Explanation of report structure and data fields.
 
 ---
 

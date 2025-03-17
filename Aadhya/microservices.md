@@ -43,7 +43,7 @@ This microservice handles follow-up communication with users over WhatsApp to ke
 ### 🔍 Example Use Case
 
 - User schedules a site visit for **3 PM, March 20**.
-- EventBridge triggers a reminder at **2:45 PM**.
+- EventBridge triggers a reminder at **2:00 PM**.
 - SQS queues the event.
 - Lambda fetches user details and crafts a reminder:  
   _"Hey [User's Name], just a reminder — your site visit is at 3 PM today! Looking forward to seeing you there. 🚀"_
@@ -93,18 +93,6 @@ Generates detailed reports consolidating user interaction data. It produces two 
 5. **Error Handling:**
    - Retries on Google API failure.
    - Logs errors to CloudWatch.
-
-### 🔍 Example Output
-
-- **Consolidated Report:**
-  | Name | Mobile | Config | Rank | Chat History | Visit Scheduled |
-  |----------|-----------|--------|------|--------------|-----------------|
-  | John Doe | 9876543210 | 3BHK | High | Yes | Yes |
-
-- **Session-wise Report:**
-  | Name | Session Start | Session End | Chat Length | Intent Detected |
-  |----------|---------------|-------------|-------------|-----------------|
-  | John Doe | 9:10 AM | 9:35 AM | 25 mins | Site Visit |
 
 ---
 
