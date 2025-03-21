@@ -1,3 +1,7 @@
+---
+layout: protected
+---
+
 # Welcome to XRVIZION Documentation
 
 ## Project Documentation
