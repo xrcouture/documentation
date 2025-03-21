@@ -151,7 +151,3 @@ Ensure you have the following prerequisites installed and configured:
    - Test both speech and text input responses.
 
 ---
-
-Your setup should now be complete. 🎉
-
-Would you like me to extend this with a troubleshooting or maintenance section?
